@@ -1,0 +1,40 @@
+
+@media (min-width: 992px) {
+
+    #sideNav .navbar-collapse .navbar-nav{
+        flex-direction: row-reverse;
+        width: 100%;
+    
+    }
+    nav{
+        position: relative;
+    }
+    #sideNav .navbar-collapse{
+        margin-bottom: inherit;
+    
+    }
+    #sideNav {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 134px;
+    }
+    #sideNav .navbar-brand .img-profile {
+        max-width: 10rem;
+        max-height: 6rem;
+        border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    }
+    #clr-picker {
+        text-align: center;
+        position: absolute;
+        /* left: 0; */
+        left: 30%;
+        top: 10px;
+    }
+}
+
+
