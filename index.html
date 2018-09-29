@@ -58,7 +58,7 @@
     </div>
       <script>
         function changeThem(val) {
-          let rule = `body{ color:"${val}"!important}.bg-primary{    background-color:"${val} "!important}.text-primary{color:" ${val} "!important}.list-social-icons a:hover{  color:"${val} "!important} `;
+          let rule = `body{ color:${val}!important}.bg-primary{    background-color:${val}!important}.text-primary{color:${val}!important}.list-social-icons a:hover{  color:${val}!important} `;
           rule = rule.replace(/\s/g,'')
           const head = document.getElementsByTagName('head')[0];
           const style = document.createElement('style');
